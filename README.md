@@ -87,7 +87,7 @@ results = model.train(data="data.yaml", epochs=25, imgsz=640, batch=16)
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/face-mask-detection.git
+git clone https://github.com/GhaiAyush/Face-mask-detection.git
 cd face-mask-detection
 ```
 
@@ -105,7 +105,7 @@ streamlit run app.py
 
 🎯 **Try it instantly here:**
 
-👉 [**Face Mask Detection Web App**](https://face-mask-detection-fnw4hnxdvtpk6vcaukxw2z.streamlit.app/)
+👉 [**Face Mask Detection Web App**](https://face-mask-detection-av29upvmfgdpnun3egcadp.streamlit.app/)
 
 No installation required — just upload an image and see real-time mask detection results directly in your browser! 🚀
 
