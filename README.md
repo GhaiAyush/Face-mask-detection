@@ -71,12 +71,7 @@ face-mask-detection/
 
 ---
 
-## 🧑‍💻 How It Works
 
-1. Downloaded the popular Kaggle Face Mask dataset (~12K annotated images)  
-2. Converted XML annotations → YOLO TXT format  
-3. Trained **YOLOv8n** (nano) model for **25 epochs** on Google Colab  
-4. Exported `best.pt` and integrated into a user-friendly Streamlit app  
 
 **Training Command Used:**
 ```python
