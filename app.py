@@ -1,3 +1,8 @@
+import os
+# ✅ Prevent OpenCV GUI errors on Streamlit Cloud (libGL.so.1 issue)
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
+os.environ["OPENCV_LOG_LEVEL"] = "ERROR"
+
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
@@ -6,30 +11,38 @@ import numpy as np
 st.set_page_config(page_title="😷 Face Mask Detection", layout="centered")
 
 st.title("😷 Face Mask Detection App (YOLOv8)")
-st.write("Upload an image to detect if the person is wearing a mask properly or not.")
+st.write("Upload an image to detect if the person is wearing a mask properly, incorrectly, or not at all.")
 
-# Load the trained YOLO model
+# Load trained YOLOv8 model
 model = YOLO("model/best.pt")
 
 uploaded_file = st.file_uploader("📸 Upload an image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
     image = Image.open(uploaded_file)
+
+    # ✅ Convert RGBA → RGB (remove alpha channel)
+    if image.mode == "RGBA":
+        image = image.convert("RGB")
+
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
     # Convert image to numpy array
     img_array = np.array(image)
 
-    # Run detection
+    # ✅ Run YOLO prediction
     results = model.predict(source=img_array, conf=0.4)
 
-    # Display annotated result
+    # ✅ Display annotated result (works headlessly)
     annotated_image = results[0].plot()
     st.image(annotated_image, caption="Detection Result", use_column_width=True)
 
-    # Show labels and confidence
-    for box in results[0].boxes:
-        cls = int(box.cls[0])
-        conf = round(float(box.conf[0]), 2)
-        label = model.names[cls]
-        st.write(f"**{label}** detected with confidence **{conf}**")
+    # ✅ Show class labels and confidence
+    if results[0].boxes is not None:
+        for box in results[0].boxes:
+            cls = int(box.cls[0])
+            conf = round(float(box.conf[0]), 2)
+            label = model.names[cls]
+            st.write(f"**{label}** detected with confidence **{conf}**")
+    else:
+        st.warning("No mask detected in the image.")
