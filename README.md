@@ -24,7 +24,6 @@
       <td><img src="assets/output_sample.jpg" alt="Output" width="400"/></td>
     </tr>
   </table>
-  <i>Add your own screenshots in the <code>/assets/</code> folder</i>
 </div>
 
 ---
