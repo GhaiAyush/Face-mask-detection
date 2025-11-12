@@ -1,10 +1,16 @@
 import os
-# ✅ Prevent OpenCV GUI errors on Streamlit Cloud (libGL.so.1 issue)
+# 🩵 Fix for Streamlit Cloud: prevent cv2 GUI loading (libGL.so.1 missing)
 os.environ["QT_QPA_PLATFORM"] = "offscreen"
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
 os.environ["OPENCV_LOG_LEVEL"] = "ERROR"
-
+os.environ["FORCE_HEADLESS"] = "1"
 import streamlit as st
-from ultralytics import YOLO
+try:
+    from ultralytics import YOLO
+except ImportError:
+    import cv2
+    raise RuntimeError("OpenCV failed to load. Please ensure headless mode is enforced.")
+
 from PIL import Image
 import numpy as np
 
