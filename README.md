@@ -1,6 +1,6 @@
 
 
-# 😷 Face Mask Detection using YOLOv8 & Streamlit
+# 😷 Face Mask Detection using YOLOv8
 
 > Real-time detection of **with mask**, **without mask**, and **incorrectly worn mask** using YOLOv8 — wrapped in a beautiful Streamlit web app!
 
