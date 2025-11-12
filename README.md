@@ -139,12 +139,12 @@ Live in under 60 seconds!
 
 ---
 
-## 🙌 Contributors
+| 👤 **Member**        | 💼 **Role**                       | 🧠 **Contributions**                                                                                                                                                                                                                                                                     |
+| -------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ayush Ghai**       | **Lead Developer & Project Head** | - Designed overall system architecture<br>- Managed YOLOv8 model training pipeline<br>- Fine-tuned model parameters & performance metrics<br>- Conducted testing, evaluation, and validation of detections<br>- Guided UI-UX improvements for better user flow                           |
+| **Akash Wadode**     | **AI & Backend Developer**        | - Integrated YOLOv8 inference engine with Streamlit<br>- Optimized model loading & prediction pipeline<br>- Structured the project folder for modularity<br>- Configured deployment on Streamlit Cloud<br>- Enhanced README and documentation for GitHub                                 |
+| **Kushvinder Singh** | **Frontend & UI Engineer**        | - Designed Streamlit web interface for better accessibility<br>- Developed layout for image upload and result display<br>- Created responsive interface for both desktop & mobile<br>- Handled UI testing and bug fixes<br>- Added visual assets and icons for professional presentation |
 
-| Name                | Role                  | Contribution                              |
-|---------------------|-----------------------|-------------------------------------------|
-| [Your Friend's Name] | Project Creator       | Dataset prep, training, Streamlit app     |
-| [Your Name]         | Collaborator          | Project structure, README, deployment help|
 
 ---
 
@@ -165,14 +165,3 @@ This project is licensed under the **MIT License** – free to use, modify, and 
 
 💬 **Enjoyed this project? Give it a ⭐ and share with friends!**
 
-<div align="center">
-  <br/>
-  <a href="https://github.com/YOUR_USERNAME/face-mask-detection/stargazers">
-    <img src="https://img.shields.io/github/stars/YOUR_USERNAME/face-mask-detection?style=social" alt="Stars">
-  </a>
-</div>
-```
-
-Just replace `YOUR_USERNAME` and the contributor names, add real screenshots in `/assets/`, and this README will look **absolutely stunning** on GitHub!  
-
-Want me to generate a dark-mode version or add a live demo GIF? I’ve got you covered! 🚀
