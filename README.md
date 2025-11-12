@@ -107,7 +107,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open your browser at `http://localhost:8501` — you're live! 🎉
+## ☁️ Live Demo (Deployed on Streamlit Cloud)
+
+🎯 **Try it instantly here:**
+
+👉 [**Face Mask Detection Web App**](https://face-mask-detection-fnw4hnxdvtpk6vcaukxw2z.streamlit.app/)
+
+No installation required — just upload an image and see real-time mask detection results directly in your browser! 🚀
+
 
 ---
 
