@@ -133,12 +133,14 @@ Live in under 60 seconds!
 
 ---
 
-| 👤 **Member**        | 💼 **Role**                       | 🧠 **Contributions**                                                                                                                                                                                                                                                                     |
-| -------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Ayush Ghai**       | **Lead Developer & Project Head** | - Designed overall system architecture<br>- Managed YOLOv8 model training pipeline<br>- Fine-tuned model parameters & performance metrics<br>- Conducted testing, evaluation, and validation of detections<br>- Guided UI-UX improvements for better user flow                           |
-| **Tarun Kodi**     | **AI & Backend Developer**        | - Integrated YOLOv8 inference engine with Streamlit<br>- Optimized model loading & prediction pipeline<br>- Structured the project folder for modularity<br>- Configured deployment on Streamlit Cloud<br>- Enhanced README and documentation for GitHub                                 |
-| **Gowri Shankar** | **Frontend & UI Engineer**        | - Designed Streamlit web interface for better accessibility<br>- Developed layout for image upload and result display<br>- Created responsive interface for both desktop & mobile<br>- Handled UI testing and bug fixes<br>- Added visual assets and icons for professional presentation |
+## 👥 Team & Contributions
 
+> A passionate and collaborative effort led by **Ayush Ghai**, driving the entire project lifecycle — from architecture design and model training to testing and deployment.
+
+| 👤 **Member**      | 💼 **Role**                         | 🧠 **Contributions**                                                                                                                                                                                                                                                                      |
+|--------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ⭐ **Ayush Ghai**  | **Lead Developer & Project Head**    | - Conceived and led the complete SafetySnap project lifecycle.<br>- Designed overall system architecture integrating YOLOv8 with Streamlit.<br>- Managed model training, fine-tuning, and optimization for real-time PPE detection.<br>- Handled backend logic, data flow, and performance tuning.<br>- Conducted model evaluation, testing, and debugging.<br>- Supervised UI/UX design and guided deployment preparation.<br>- Created technical documentation and handled project presentation. |
+| **Sumit Agrawal**  | **Frontend & Deployment Engineer**   | - Deployed the Streamlit application on Streamlit Cloud.<br>- Worked on Streamlit UI for image upload and detection result display.<br>- Designed responsive layouts for a better visual experience.<br>- Assisted in final testing and integration for production deployment. |
 
 ---
 
