@@ -50,7 +50,7 @@ face-mask-detection/
 ## 🚀 Features
 
 - Accurate 3-class detection: `with_mask` ✅ · `without_mask` 🚫 · `mask_weared_incorrect` ⚠️  
-- Simple & interactive Streamlit web interface  
+- Simple & interactive Huggingface web interface  
 - Upload image or use webcam (optional)  
 - Lightning-fast inference with YOLOv8 nano  
 - Trained on free Google Colab GPU  
@@ -141,7 +141,7 @@ No installation needed — upload an image or capture live with your webcam!
 
 - Dataset by [andrewmvd](https://www.kaggle.com/andrewmvd) on Kaggle  
 - Huge thanks to **Ultralytics** for YOLOv8  
-- **Streamlit** for making deployment so easy  
+- **Huggingface** for making deployment so easy  
 - Google Colab for free GPUs ❤️  
 
 ---
