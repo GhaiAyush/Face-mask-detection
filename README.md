@@ -54,7 +54,7 @@ face-mask-detection/
 - Upload image or use webcam (optional)  
 - Lightning-fast inference with YOLOv8 nano  
 - Trained on free Google Colab GPU  
-- One-click deployment on Streamlit Cloud  
+
 
 ---
 
@@ -109,14 +109,8 @@ No installation needed — upload an image or capture live with your webcam!
 
 ---
 
-## ☁️ Deploy on Streamlit Cloud (Free!)
 
-1. Push this repo to GitHub  
-2. Go to [https://share.streamlit.io](https://share.streamlit.io)  
-3. Connect GitHub → Select this repo  
-4. Set main file as `app.py` → Deploy!  
 
-Live in under 60 seconds!
 
 ---
 
