@@ -6,8 +6,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/Framework-YOLOv8-orange?logo=ultralytics)
-![Streamlit](https://img.shields.io/badge/UI-Streamlit-red?logo=streamlit&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+![HuggingFace](https://img.shields.io/badge/Deploy-HuggingFace_Spaces-yellow?logo=huggingface&logoColor=black)
 
 ---
 
@@ -100,15 +99,13 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+## 📸 Live Demo
 
-## ☁️ Live Demo (Deployed on Streamlit Cloud)
+Try the app instantly on HuggingFace:
 
-🎯 **Try it instantly here:**
+👉 **https://huggingface.co/spaces/ayushghai/face-mask-detection**
 
-👉 [**Face Mask Detection Web App**](https://face-mask-detection-av29upvmfgdpnun3egcadp.streamlit.app/)
-
-No installation required — just upload an image and see real-time mask detection results directly in your browser! 🚀
-
+No installation needed — upload an image or capture live with your webcam!
 
 ---
 
@@ -141,12 +138,6 @@ Live in under 60 seconds!
 |--------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ⭐ **Ayush Ghai**  | **Lead Developer & Project Head**    | - Conceived and led the complete SafetySnap project lifecycle.<br>- Designed overall system architecture integrating YOLOv8 with Streamlit.<br>- Managed model training, fine-tuning, and optimization for real-time PPE detection.<br>- Handled backend logic, data flow, and performance tuning.<br>- Conducted model evaluation, testing, and debugging.<br>- Supervised UI/UX design and guided deployment preparation.<br>- Created technical documentation and handled project presentation. |
 | **Sumit Agrawal**  | **Frontend & Deployment Engineer**   | - Deployed the Streamlit application on Streamlit Cloud.<br>- Worked on Streamlit UI for image upload and detection result display.<br>- Designed responsive layouts for a better visual experience.<br>- Assisted in final testing and integration for production deployment. |
-
----
-
-## 🪪 License
-
-This project is licensed under the **MIT License** – free to use, modify, and distribute.
 
 ---
 
