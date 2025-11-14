@@ -134,10 +134,12 @@ Live in under 60 seconds!
 
 > A passionate and collaborative effort led by **Ayush Ghai**, driving the entire project lifecycle — from architecture design and model training to testing and deployment.
 
-| 👤 **Member**      | 💼 **Role**                         | 🧠 **Contributions**                                                                                                                                                                                                                                                                      |
-|--------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ⭐ **Ayush Ghai**  | **Lead Developer & Project Head**    | - Conceived and led the complete SafetySnap project lifecycle.<br>- Designed overall system architecture integrating YOLOv8 with Streamlit.<br>- Managed model training, fine-tuning, and optimization for real-time PPE detection.<br>- Handled backend logic, data flow, and performance tuning.<br>- Conducted model evaluation, testing, and debugging.<br>- Supervised UI/UX design and guided deployment preparation.<br>- Created technical documentation and handled project presentation. |
-| **Sumit Agrawal**  | **Frontend & Deployment Engineer**   | - Deployed the Streamlit application on Streamlit Cloud.<br>- Worked on Streamlit UI for image upload and detection result display.<br>- Designed responsive layouts for a better visual experience.<br>- Assisted in final testing and integration for production deployment. |
+## 👥 Team & Contributions
+
+| Member | Role | Contributions |
+|--------|------|---------------|
+| ⭐ **<a href="https://github.com/GhaiAyush" target="_blank">Ayush&nbsp;Ghai</a>** | Lead Developer & Project Head | - Designed overall system architecture<br>- Trained YOLOv8 model<br>- Built Streamlit UI + webcam mode<br>- Deployed on HuggingFace Spaces<br>- Wrote complete documentation |
+| **<a href="YOUR_LINK_HERE" target="_blank">Sumit&nbsp;Agrawal</a>** | Frontend & UI Engineer | - Improved UI/UX<br>- Helped test detection pipeline<br>- Assisted in deployment & final polishing |
 
 ---
 
