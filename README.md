@@ -126,16 +126,13 @@ No installation needed — upload an image or capture live with your webcam!
 
 ## 👥 Team & Contributions
 
-> A passionate and collaborative effort led by **Ayush Ghai**, driving the entire project lifecycle — from architecture design and model training to testing and deployment.
-
-## 👥 Team & Contributions
-
 | Member | Role | Contributions |
 |--------|------|---------------|
-| ⭐ **<a href="https://github.com/GhaiAyush" target="_blank">Ayush&nbsp;Ghai</a>** | Lead Developer & Project Head | - Designed overall system architecture<br>- Trained YOLOv8 model<br>- Built Streamlit UI + webcam mode<br>- Deployed on HuggingFace Spaces<br>- Wrote complete documentation |
-| **<a href="YOUR_LINK_HERE" target="_blank">Sumit&nbsp;Agrawal</a>** | Frontend & UI Engineer | - Improved UI/UX<br>- Helped test detection pipeline<br>- Assisted in deployment & final polishing |
+| ⭐ **[Ayush Ghai](https://github.com/GhaiAyush)** | Lead Developer & Project Head | - Designed overall system architecture<br>- Trained YOLOv8 model<br>- Built Streamlit UI + webcam mode<br>- Deployed on HuggingFace Spaces<br>- Wrote complete documentation |
+| **[Sumit Agrawal](YOUR_LINK_HERE)** | Frontend & UI Engineer | - Improved UI/UX<br>- Helped test detection pipeline<br>- Assisted in deployment & final polishing |
+| **[Tarun Kodi](YOUR_LINK_HERE)** | Research & Model Optimization | - Helped improve model accuracy<br>- Worked on dataset refinement<br>- Suggested optimizations for YOLO performance |
+| **[Gowri Shankar](YOUR_LINK_HERE)** | Testing & Documentation Support | - Performed feature testing<br>- Helped prepare final report<br>- Assisted in deployment verification |
 
----
 
 ## 🌟 Acknowledgements
 
